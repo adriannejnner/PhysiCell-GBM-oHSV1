@@ -213,13 +213,13 @@
 		<nu type="double" units="micron/min">4</nu> <!-- base_migration_speed -->
 		<nu_max type="double" units="micron/min">24.6</nu_max> <!-- CTL_max_speed -->
 		<nu_star type="double" units="dimensionless">0.005</nu_star> <!-- Chemokine_motility_EC50 -->
-		<b_CD8 type="double" units="dimensionless">0.85</b_CD8> <!-- CTL_chemokine_migration_bias -->
+		<b_CD8 type="double" units="dimensionless">1</b_CD8> <!-- CTL_chemokine_migration_bias -->
 		<S_chemokine_CD4 type="double" units="1/min">0.0417</S_chemokine_CD4><!-- chemokine_secretion_rate -->
 		<r_01_CD4 type="double" units="dimensionless">0.000079026</r_01_CD4> <!-- TH_prolif_rate -->
 		<r_01_CD8 type="double" units="dimensionless">0.000072206</r_01_CD8><!-- CTL_prolif_rate -->
 		<r_10 type="double" units="dimensionless">0.00143</r_10> <!-- Division rate -->
-		<TH_prolif_increase_due_to_stimulus type="double" units="dimensionless">5</TH_prolif_increase_due_to_stimulus> <!--- XXX  -->
-		<CTL_prolif_increase_due_to_stimulus type="double" units="dimensionless">100</CTL_prolif_increase_due_to_stimulus>  <!--- XXX  -->
+		<TH_prolif_increase_due_to_stimulus type="double" units="dimensionless">100</TH_prolif_increase_due_to_stimulus> 
+		<CTL_prolif_increase_due_to_stimulus type="double" units="dimensionless">100</CTL_prolif_increase_due_to_stimulus> 
 		<d_attach type="double" units="1/min">50</d_attach> <!-- CD8 to infected cell attachment distance -->
 		<rhostar_chemokine type="double" units="ng/micron">5</rhostar_chemokine> <!-- chemokine_saturation_density -->
 		<tau type="double" units="min">50</tau><!-- time taken to kill cell -->

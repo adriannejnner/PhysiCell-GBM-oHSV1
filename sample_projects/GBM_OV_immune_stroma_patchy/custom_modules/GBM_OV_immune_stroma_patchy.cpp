@@ -150,7 +150,7 @@ void create_CTL_cells( void )
 	CTL_cell.phenotype.volume.fluid = CTL_cell.phenotype.volume.fluid_fraction*CTL_cell.phenotype.volume.total;
 	CTL_cell.phenotype.volume.solid = CTL_cell.phenotype.volume.total-CTL_cell.phenotype.volume.fluid;
 	CTL_cell.phenotype.volume.nuclear = parameters.doubles("V_N_CD8");
-	CTL_cell.phenotype.volume.nuclear_solid = 24.06;
+	CTL_cell.phenotype.volume.nuclear_solid = 24.1;
 	CTL_cell.phenotype.volume.nuclear_fluid = CTL_cell.phenotype.volume.nuclear - CTL_cell.phenotype.volume.nuclear_solid;
 	CTL_cell.phenotype.volume.cytoplasmic = CTL_cell.phenotype.volume.total - CTL_cell.phenotype.volume.nuclear;
 	CTL_cell.phenotype.volume.cytoplasmic_fluid = CTL_cell.phenotype.volume.fluid_fraction*CTL_cell.phenotype.volume.cytoplasmic;
