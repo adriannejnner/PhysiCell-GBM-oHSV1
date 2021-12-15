@@ -1,4 +1,3 @@
-![image](https://user-images.githubusercontent.com/48768705/146128272-fe56b322-6009-4bca-b537-62661a9ae5dd.png)
 # Agent-based computational modelling of glioblastoma predicts that stromal density is central to oncolytic virus efficacy
 
 This code accompanies the paper submitted to iScience "Agent-based computational modelling of glioblastoma predicts that stromal density is central to oncolytic virus efficacy" a nanoHub simualtion of this code can be found at https://nanohub.org/tools/ohsv1gbmapp.
@@ -15,6 +14,7 @@ Visit http://MathCancer.org/blog for the latest tutorials and help.
 
 ## Overview: 
 The code is an agent-based computational model of glioblastoma tumours predicting the efficacy of oHSV-1 (Herpes Simplex Oncolytic virus). The model describes the individual interactions between glioblastoma, stromal, CD4+ T and CD8+ T cells. Proliferating glioblastoma cells become infected by oHSV-1, changing phenotype to infected cells. CD4+T cells become actived by the presence of infected cells and secrete chemokine which recruits CD8+ T cells thorugh chemotaxis. CD8+ T cells then induce apoptosis in infected cells and/or tumour cells depending on the antigen specificity. Each cell is modelled as an agent and equipped with an independent state and set of rules dictating its behaviour based on load environmental conditions (i.e. chemokine and virus concentrations) and cell-cell interactions wit virus and chemokine modelled as a diffusing field. 
+![image](https://user-images.githubusercontent.com/48768705/146128316-3347c4db-c018-4b2a-b952-1bc2b43f2bb0.png)
 
 ### Key makefile rules:
 
