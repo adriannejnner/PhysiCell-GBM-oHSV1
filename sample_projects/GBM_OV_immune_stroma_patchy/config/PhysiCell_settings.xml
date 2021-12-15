@@ -135,7 +135,7 @@
 				<filename>./config/dirichlet.mat</filename>
 			</dirichlet_nodes>
 		</options>
-		<variable name="wall" units="mmHg" ID="1">
+		<variable name="wall" units="mmHg" ID="1"><!--Wall describes the boundary between migratory and non-migratory regions -->
 			<physical_parameter_set>
 				<diffusion_coefficient units="micron^2/min">0</diffusion_coefficient>
 				<decay_rate units="1/min">0.0</decay_rate>  
