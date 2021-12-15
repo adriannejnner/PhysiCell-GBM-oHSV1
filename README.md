@@ -23,7 +23,7 @@ The code is an agent-based computational model of glioblastoma tumours predictin
                      populates the cancer heterogeneity 2D 
                      sample project and compiles it 
    
-**make GBM_OV_immune_stroma_patchy**: populates the PhysiCell environment with the GBM_OV_immune_stroma_patchy project. 
+**make GBM-OV-immune-stroma-patchy**: populates the PhysiCell environment with the GBM-OV-immune-stroma-patchy project. 
                      Use "make" to compile it. 
 
 **make clean**         : removes all .o files and the executable, so that the next "make" recompiles the entire project 
@@ -34,7 +34,7 @@ The code is an agent-based computational model of glioblastoma tumours predictin
 
 * * * 
 ### Running
-Once the model has been compiled, to run simply run .\GBM-OV-immune-stroma-patchy.exe
+Once the model has been compiled, to run simply run .\GBM_OV_immune_stroma_patchy.exe
 
 ### Changing dense:sparse configurations
 To change the configuration of dense to sparse regions of the GBM, simplfy change the "proportion" and update the corresponding "kappa". 
