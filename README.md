@@ -1,4 +1,4 @@
-# PhysiCell: an Open Source Physics-Based Cell Simulator for 3-D Multicellular Systems.
+# Agent-based computational modelling of glioblastoma predicts that stromal density is central to oncolytic virus efficacy
 
 **Version:**      1.6.0
 
