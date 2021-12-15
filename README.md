@@ -1,6 +1,6 @@
 # Agent-based computational modelling of glioblastoma predicts that stromal density is central to oncolytic virus efficacy
 
-This code accompanies the paper submitted to iScience "Agent-based computational modelling of glioblastoma predicts that stromal density is central to oncolytic virus efficacy"
+This code accompanies the paper submitted to iScience "Agent-based computational modelling of glioblastoma predicts that stromal density is central to oncolytic virus efficacy" a nanoHub simualtion of this code can be found at https://nanohub.org/tools/ohsv1gbmapp.
 
 The code uses PhysiCell: an Open Source Physics-Based Cell Simulator for 3-D Multicellular systems
 
@@ -13,7 +13,7 @@ Visit http://MathCancer.org/blog for the latest tutorials and help.
 **Release date:** 20 August 2019
 
 ## Overview: 
-
+The code is an agent-based computational model of glioblastoma tumours predicting the efficacy of oHSV-1 (Herpes Simplex Oncolytic virus). The model describes the individual interactions between glioblastoma, stromal, CD4+ T and CD8+ T cells. Proliferating glioblastoma cells become infected by oHSV-1, changing phenotype to infected cells. CD4+T cells become actived by the presence of infected cells and secrete chemokine which recruits CD8+ T cells thorugh chemotaxis. CD8+ T cells then induce apoptosis in infected cells and/or tumour cells depending on the antigen specificity. Each cell is modelled as an agent and equipped with an independent state and set of rules dictating its behaviour based on load environmental conditions (i.e. chemokine and virus concentrations) and cell-cell interactions wit virus and chemokine modelled as a diffusing field. 
 
 ### Key makefile rules:
 
