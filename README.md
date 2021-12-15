@@ -1,3 +1,4 @@
+![image](https://user-images.githubusercontent.com/48768705/146128272-fe56b322-6009-4bca-b537-62661a9ae5dd.png)
 # Agent-based computational modelling of glioblastoma predicts that stromal density is central to oncolytic virus efficacy
 
 This code accompanies the paper submitted to iScience "Agent-based computational modelling of glioblastoma predicts that stromal density is central to oncolytic virus efficacy" a nanoHub simualtion of this code can be found at https://nanohub.org/tools/ohsv1gbmapp.
