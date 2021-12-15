@@ -1,18 +1,19 @@
 # Agent-based computational modelling of glioblastoma predicts that stromal density is central to oncolytic virus efficacy
 
-**Version:**      1.6.0
+This code accompanies the paper submitted to iScience "Agent-based computational modelling of glioblastoma predicts that stromal density is central to oncolytic virus efficacy"
 
-**Release date:** 20 August 2019
-
-## Overview: 
-PhysiCell is a flexible open source framework for building agent-based multicellular models in 3-D tissue environments.
+The code uses PhysiCell: an Open Source Physics-Based Cell Simulator for 3-D Multicellular systems
 
 **Reference:** A Ghaffarizadeh, R Heiland, SH Friedman, SM Mumenthaler, and P Macklin, PhysiCell: an Open Source Physics-Based Cell Simulator for Multicellular Systems, PLoS Comput. Biol. 14(2): e1005991, 2018. DOI: [10.1371/journal.pcbi.1005991](https://dx.doi.org/10.1371/journal.pcbi.1005991)
 
 Visit http://MathCancer.org/blog for the latest tutorials and help. 
 
-**Notable recognition:**
-+ [2019 PLoS Computational Biology Research Prize for Public Impact](https://blogs.plos.org/biologue/2019/05/31/announcing-the-winners-of-the-2019-plos-computational-biology-research-prize/)
+**Version:**      1.6.0
+
+**Release date:** 20 August 2019
+
+## Overview: 
+
 
 ### Key makefile rules:
 
