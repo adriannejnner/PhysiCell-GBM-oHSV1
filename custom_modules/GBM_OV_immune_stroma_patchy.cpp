@@ -789,6 +789,7 @@ void infection_dynamics( Cell* pCell, Phenotype& phenotype, double dt )
 	
 	if( n>1)
 	{
+	//	std::cout<<"m_i = "<<n<<" rho_virus = "<<p<<" u_g = "<<u<<" mstar = "<<nstar<<" alph = "<<alp<<" gamma = "<<nu<<" rho_max = "<<pmax<<std::endl;
 	}
 	pCell->custom_data.variables[intracellular_virus_index].value = pCell->phenotype.molecular.internalized_total_substrates[virus_signal_index];		
 		
